@@ -12,7 +12,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="max-container py-[30px] px-4 flex justify-between items-center ">
+    <nav className="max-container bg-silver py-[30px] xs:px-4 xl:px-[100px] flex justify-between items-center ">
       <Link href={"/"}>
         <Image src="/logo.png" width={155} height={24} alt="logo" />
       </Link>
