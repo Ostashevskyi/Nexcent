@@ -120,3 +120,9 @@
     @apply text-sm font-normal leading-4 text-primary transition-all child-span:bg-primary child-span:active:bg-shade_2 active:text-shade_2;
   }
 }
+
+@layer utilities {
+  .max-container {
+    @apply max-w-[1440px] m-auto;
+  }
+}
