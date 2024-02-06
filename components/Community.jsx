@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Community = () => {
   return (
-    <section className="text-center mb-10">
+    <section className="text-center mb-24">
       <h2 className="max-w-[542px] m-auto text-dark_grey mb-2">
         Manage your entire community in a single system
       </h2>
