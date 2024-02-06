@@ -1,3 +1,4 @@
+import Achievements from "@/components/Achievements";
 import Community from "@/components/Community";
 import Hero from "@/components/Hero";
 import OurClients from "@/components/OurClients";
@@ -10,6 +11,7 @@ export default function Home() {
       <OurClients />
       <Community />
       <Unlock />
+      <Achievements />
     </div>
   );
 }

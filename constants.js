@@ -40,3 +40,10 @@ export const COMMUNITY_CARDS_INFO = [
     text: "Our membership management software provides full automation of membership renewals and payments",
   },
 ];
+
+export const ACHIEVEMENTS_INFO = [
+  { id: 0, icon: "/people.png", number: "2,245,341", text: "Members" },
+  { id: 1, icon: "/hands.png", number: "46,328", text: "Clubs" },
+  { id: 2, icon: "/touch.png", number: "828,867", text: "Event Bookings" },
+  { id: 3, icon: "/card.png", number: "1,926,436", text: "Payments" },
+];
