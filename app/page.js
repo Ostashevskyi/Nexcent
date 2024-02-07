@@ -1,5 +1,7 @@
 import Achievements from "@/components/Achievements";
+import Calendar from "@/components/Calendar";
 import Community from "@/components/Community";
+import Customers from "@/components/Customers";
 import Hero from "@/components/Hero";
 import OurClients from "@/components/OurClients";
 import Unlock from "@/components/Unlock";
@@ -12,6 +14,8 @@ export default function Home() {
       <Community />
       <Unlock />
       <Achievements />
+      <Calendar />
+      <Customers />
     </div>
   );
 }

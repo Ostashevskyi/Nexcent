@@ -6,8 +6,8 @@ const Unlock = () => {
   return (
     <section className="flex flex-wrap lg:flex-row justify-around gap-12 xl:gap-0 items-center mb-24 mx-4">
       <Image src={"/unlock.png"} alt="unlock" width={441} height={329} />
-      <div className="max-w-[661px]">
-        <h2 className="text-dark_grey mb-4 max-w-[600px]">
+      <div className="max-w-[600px]">
+        <h2 className="text-dark_grey mb-4">
           The unseen of spending three years at Pixelgrade
         </h2>
         <p className="regular_3 text-grey mb-8">

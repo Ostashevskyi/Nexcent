@@ -47,3 +47,12 @@ export const ACHIEVEMENTS_INFO = [
   { id: 2, icon: "/touch.png", number: "828,867", text: "Event Bookings" },
   { id: 3, icon: "/card.png", number: "1,926,436", text: "Payments" },
 ];
+
+export const CUSTOMERS_SECTION_ICONS = [
+  { id: 0, url: "/logos/abstract_color.png", alt: "abstract" },
+  { id: 1, url: "/logos/mouth.png", alt: "mouth" },
+  { id: 2, url: "/logos/o7.png", alt: "o7" },
+  { id: 3, url: "/logos/logoipsum.png", alt: "logoipsum" },
+  { id: 4, url: "/logos/track.png", alt: "track" },
+  { id: 5, url: "/logos/lines.png", alt: "lines" },
+];
