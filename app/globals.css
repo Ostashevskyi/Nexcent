@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.fixed {
+  position: fixed;
+}
+
 :root {
   --black: #263238;
   --dark_grey: #4d4d4d;
@@ -26,6 +30,8 @@
   --warning: #fbc02d;
   --error: #e53835;
   --success: #2e7d31;
+  --white_10: rgba(255, 255, 255, 0.1);
+  --white_20: rgba(255, 255, 255, 0.2);
 }
 
 @layer base {
@@ -99,13 +105,13 @@
 
   /* tertiary */
   .tertiary_button_normal {
-    @apply max-h-[56px] py-4 px-8 text-lg bg-white text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
+    @apply max-h-[56px] py-4 px-8 text-lg bg-transparent text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
   }
   .tertiary_button_medium {
-    @apply max-h-[48px] py-[14px] px-8 text-base bg-white text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
+    @apply max-h-[48px] py-[14px] px-8 text-base bg-transparent text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
   }
   .tertiary_button_small {
-    @apply max-h-[32px] py-2 px-6 text-sm bg-white text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
+    @apply max-h-[32px] py-2 px-6 text-sm bg-transparent text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
   }
 
   /* Links */
@@ -118,5 +124,19 @@
   }
   .link_small {
     @apply text-sm font-normal leading-4 text-primary transition-all child-span:bg-primary child-span:active:bg-shade_2 active:text-shade_2;
+  }
+
+  /* Cards */
+  .community_card {
+    @apply max-w-[300px] rounded-md shadow-md py-6 px-4 flex flex-col justify-center items-center;
+  }
+  .updates_card {
+    @apply max-w-[317px] rounded-md shadow-md absolute top-1/2 xs:left-1/2 md:left-0 xs:-translate-x-1/2 md:translate-x-[8%] translate-y-[10%] bg-silver p-4 flex flex-col justify-center items-center;
+  }
+}
+
+@layer utilities {
+  .max-container {
+    @apply max-w-[1440px] m-auto;
   }
 }
