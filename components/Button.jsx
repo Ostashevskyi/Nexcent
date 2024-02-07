@@ -15,7 +15,7 @@ const CustomButton = ({
       className={`${variant} flex items-center gap-2 w-fit`}
       disabled={isDisabled}
     >
-      <label className="flex items-center gap-2 justify-center whitespace-nowrap">
+      <label className="flex items-center gap-2 justify-center whitespace-nowrap cursor-pointer">
         {children}
       </label>
 
