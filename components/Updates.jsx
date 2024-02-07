@@ -7,7 +7,7 @@ import ArrowRight from "./icons/ArrowRight";
 
 const Updates = () => {
   return (
-    <section className="text-center">
+    <section className="text-center mb-10">
       <div className="max-w-[628px] m-auto mb-4">
         <h2 className="text-dark_grey">Caring is the new marketing</h2>
         <p className="regular_2 text-grey ">
