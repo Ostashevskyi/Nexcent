@@ -21,7 +21,10 @@ const Footer = () => {
 
         <div className="flex gap-4">
           {FOOTER_SOCIALS_ICONS.map((icon) => (
-            <div className="w-8 h-8 bg-white_10 rounded-full flex items-center justify-center ">
+            <div
+              className="w-8 h-8 bg-white_10 rounded-full flex items-center justify-center"
+              key={icon.id}
+            >
               <Link href="/">
                 <Image src={icon.icon} alt="alt" width={17} height={17} />
               </Link>

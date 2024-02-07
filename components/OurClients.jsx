@@ -10,7 +10,7 @@ const OurClients = () => {
         We have been working with some Fortune 500+ clients
       </p>
 
-      <div className="flex gap-32 justify-center flex-wrap ">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-y-5 lg:grid-cols-7 justify-items-center  ">
         {CLIENTS_ICONS.map((icon) => (
           <Image
             key={icon.id}

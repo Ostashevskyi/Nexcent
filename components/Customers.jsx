@@ -29,7 +29,7 @@ const Customers = () => {
         </p>
 
         <div className="flex gap-8 flex-wrap xs:flex-col md:flex-row">
-          <div className="grid grid-cols-2  justify-items-center md:grid-cols-6  gap-10  flex-wrap">
+          <div className="grid grid-cols-2 justify-items-center md:grid-cols-6 gap-10">
             {CUSTOMERS_SECTION_ICONS.map((icon) => (
               <Image
                 alt={icon.alt}
