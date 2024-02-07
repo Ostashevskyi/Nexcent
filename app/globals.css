@@ -99,13 +99,13 @@
 
   /* tertiary */
   .tertiary_button_normal {
-    @apply max-h-[56px] py-4 px-8 text-lg bg-white text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
+    @apply max-h-[56px] py-4 px-8 text-lg bg-transparent text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
   }
   .tertiary_button_medium {
-    @apply max-h-[48px] py-[14px] px-8 text-base bg-white text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
+    @apply max-h-[48px] py-[14px] px-8 text-base bg-transparent text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
   }
   .tertiary_button_small {
-    @apply max-h-[32px] py-2 px-6 text-sm bg-white text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
+    @apply max-h-[32px] py-2 px-6 text-sm bg-transparent text-primary rounded-md hover:bg-silver focus:border-dark_grey active:bg-tint_5 disabled:bg-silver disabled:text-grey_blue disabled:border-none;
   }
 
   /* Links */

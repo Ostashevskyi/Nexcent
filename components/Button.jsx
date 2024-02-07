@@ -12,10 +12,10 @@ const CustomButton = ({
 }) => {
   return (
     <button
-      className={`${variant} flex items-center gap-2`}
+      className={`${variant} flex items-center gap-2 w-fit`}
       disabled={isDisabled}
     >
-      <label className="flex items-center gap-2 justify-center">
+      <label className="flex items-center gap-2 justify-center whitespace-nowrap">
         {children}
       </label>
 
