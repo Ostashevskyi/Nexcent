@@ -28,6 +28,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         loading: "url(/loading.svg)",
+        updates_man: "url(/updates_man.png)",
+        updates_laptop_calc: "url(/updates_laptop_calc.png)",
+        updates_laptop_notes: "url(//updates_laptop_notes.png)",
       },
       colors: {
         black: "var(--black)",

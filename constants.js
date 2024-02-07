@@ -56,3 +56,25 @@ export const CUSTOMERS_SECTION_ICONS = [
   { id: 4, url: "/logos/track.png", alt: "track" },
   { id: 5, url: "/logos/lines.png", alt: "lines" },
 ];
+
+export const UPDATES_CARD_INFO = [
+  {
+    id: 0,
+    img: "/updates_man.png",
+    alt: "updates_man",
+    title: "Creating Streamlined Safeguarding Processes with OneRen",
+  },
+  {
+    id: 0,
+    img: "/updates_laptop_calc.png",
+    alt: "updates_laptop_calc",
+    title:
+      "What are your safeguarding responsibilities and how can you manage them?",
+  },
+  {
+    id: 0,
+    img: "/updates_laptop_notes.png",
+    alt: "updates_laptop_notes",
+    title: "Revamping the Membership Model with Triathlon Australia",
+  },
+];
