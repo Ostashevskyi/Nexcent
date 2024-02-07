@@ -82,22 +82,22 @@ export const UPDATES_CARD_INFO = [
 export const FOOTER_SOCIALS_ICONS = [
   {
     id: 0,
-    icon: "/socials/Path.svg",
+    icon: "/socials/instagram.svg",
     alt: "alt",
   },
   {
     id: 1,
-    icon: "/socials/Path-1.svg",
+    icon: "/socials/dribble.svg",
     alt: "alt",
   },
   {
     id: 2,
-    icon: "/socials/Path-2.svg",
+    icon: "/socials/twitter.svg",
     alt: "alt",
   },
   {
     id: 3,
-    icon: "/socials/Path-3.svg",
+    icon: "/socials/youtube.svg",
     alt: "alt",
   },
 ];
