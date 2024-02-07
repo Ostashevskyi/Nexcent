@@ -42,7 +42,7 @@ const Customers = () => {
           </div>
           <div className="max-w-[223px]">
             <CustomButton variant={"tertiary_button_normal"}>
-              Meet all customers <ArrowRight h={24} w={24} color={"#4CAF4F"} />
+              Meet all customers <ArrowRight h={8} w={15} color={"#4CAF4F"} />
             </CustomButton>
           </div>
         </div>

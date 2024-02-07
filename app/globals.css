@@ -124,6 +124,9 @@
   .community_card {
     @apply max-w-[300px] rounded-md shadow-md py-6 px-4 flex flex-col justify-center items-center;
   }
+  .updates_card {
+    @apply max-w-[317px] rounded-md absolute top-1/2 xs:left-1/2 md:left-0 xs:-translate-x-1/2 md:translate-x-[8%] translate-y-[10%] bg-silver p-4 flex flex-col justify-center items-center;
+  }
 }
 
 @layer utilities {

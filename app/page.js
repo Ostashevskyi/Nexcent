@@ -5,6 +5,7 @@ import Customers from "@/components/Customers";
 import Hero from "@/components/Hero";
 import OurClients from "@/components/OurClients";
 import Unlock from "@/components/Unlock";
+import Updates from "@/components/Updates";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Achievements />
       <Calendar />
       <Customers />
+      <Updates />
     </div>
   );
 }
