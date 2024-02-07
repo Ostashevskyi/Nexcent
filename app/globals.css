@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.fixed {
+  position: fixed;
+}
+
 :root {
   --black: #263238;
   --dark_grey: #4d4d4d;
