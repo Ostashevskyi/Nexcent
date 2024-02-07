@@ -65,16 +65,39 @@ export const UPDATES_CARD_INFO = [
     title: "Creating Streamlined Safeguarding Processes with OneRen",
   },
   {
-    id: 0,
+    id: 1,
     img: "/updates_laptop_calc.png",
     alt: "updates_laptop_calc",
     title:
       "What are your safeguarding responsibilities and how can you manage them?",
   },
   {
-    id: 0,
+    id: 2,
     img: "/updates_laptop_notes.png",
     alt: "updates_laptop_notes",
     title: "Revamping the Membership Model with Triathlon Australia",
+  },
+];
+
+export const FOOTER_SOCIALS_ICONS = [
+  {
+    id: 0,
+    icon: "/socials/Path.svg",
+    alt: "alt",
+  },
+  {
+    id: 1,
+    icon: "/socials/Path-1.svg",
+    alt: "alt",
+  },
+  {
+    id: 2,
+    icon: "/socials/Path-2.svg",
+    alt: "alt",
+  },
+  {
+    id: 3,
+    icon: "/socials/Path-3.svg",
+    alt: "alt",
   },
 ];

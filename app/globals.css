@@ -26,6 +26,8 @@
   --warning: #fbc02d;
   --error: #e53835;
   --success: #2e7d31;
+  --white_10: rgba(255, 255, 255, 0.1);
+  --white_20: rgba(255, 255, 255, 0.2);
 }
 
 @layer base {
