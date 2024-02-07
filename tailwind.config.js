@@ -57,6 +57,8 @@ module.exports = {
         warning: "var(--warning)",
         error: "var(--error)",
         success: "var(--success)",
+        white_10: "var(--white_10)",
+        white_20: "var(--white_20)",
       },
       fontSize: {
         64: "64px",
